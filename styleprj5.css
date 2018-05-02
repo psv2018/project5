@@ -367,12 +367,9 @@ color:blue;
     padding:0px;
 }*/
 .musictab{
-    max-height: 150px;
-    max-width: 500px;
-    width: 300px;
-    height: 50px;
-  
-     
+    
+    display: block;
+    margin: 0 auto;
     position: absolute;
     top:2900px;
     left:1100px;
@@ -394,6 +391,7 @@ color:blue;
 }
 
 .pagination a {
+    border-radius: 50%;
     color: black;
     padding: 8px 10px;
     text-decoration: none;
